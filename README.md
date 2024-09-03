@@ -54,6 +54,8 @@ A web table is an HTML element represented by the `<table>` tag and is used to d
 
 ### 1.3 Drop-down Practice
 
+Automating interactions with dropdown elements using Selenium.
+
 **Steps to Follow:**
 
 1. Open the application using the URL.
