@@ -66,6 +66,8 @@ Automating interactions with dropdown elements using Selenium.
 
 ## Data-Driven Tests
 
+Implement data-driven testing to reuse test logic for multiple sets of data, enhancing test clarity and efficiency.
+
 **Steps to Follow:**
 
 1. Set up your project and install the necessary Selenium packages via NuGet.
