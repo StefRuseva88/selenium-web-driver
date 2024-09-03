@@ -20,8 +20,7 @@ Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements
 
 ### 1.1 Handling Form Input
 
-Use Selenium to automate the process of filling out a form. The steps involve:
-
+Use Selenium to automate the process of filling out a form, locate and interact with different types of HTML elements commonly found in user registration scenarios. The steps involve:
 - Launching a web application.
 - Navigating to a form.
 - Filling out various input fields such as text boxes, radio buttons, and date pickers.
