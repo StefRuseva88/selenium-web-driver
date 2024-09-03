@@ -28,7 +28,7 @@ Use Selenium to automate the process of filling out a form, locate and interact 
 
 **Steps to Follow:**
 
-1. Open the application using the URL.
+1. Open the application using the provided URL.
 2. Click on the **My Account** link.
 3. In the **New Customer** section, click on the **Continue** button.
 4. Fill in all mandatory information on the **Account Creation** page:
@@ -46,7 +46,7 @@ A web table is an HTML element represented by the `<table>` tag and is used to d
 
 **Scenario:**
 
-- Open the application using the URL.
+- Open the application using the provided URL.
 - Identify the web table on the home page and use XPath to locate it.
 - Traverse the table to extract product information.
 - Save the extracted data to a CSV file.
@@ -58,7 +58,7 @@ Automating interactions with dropdown elements using Selenium.
 
 **Steps to Follow:**
 
-1. Open the application using the URL.
+1. Open the application using the provided URL.
 2. Identify the dropdown element using its `name` property.
 3. Use the `SelectElement` class to retrieve and interact with the dropdown options.
 4. Save the dropdown information to a text file.
