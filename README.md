@@ -3,8 +3,10 @@
 [![NUnit](https://img.shields.io/badge/tested%20with-NUnit-22B2B0.svg)](https://nunit.org/)
 [![Selenium](https://img.shields.io/badge/tested%20with-Selenium-43B02A.svg)](https://www.selenium.dev/)
 
-### Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements
 ### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
+
+## About
+Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements
 
 ## Table of Contents
 
