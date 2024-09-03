@@ -43,6 +43,7 @@ Use Selenium to automate the process of filling out a form, locate and interact 
 ### 1.2 Working with Web Tables
 
 A web table is an HTML element represented by the `<table>` tag and is used to display data in a structured format.
+
 **Scenario:**
 
 - Open the application using the URL.
