@@ -21,8 +21,6 @@ Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements
 - Filling out various input fields such as text boxes, radio buttons, and date pickers.
 - Submitting the form.
 
-This exercise demonstrates how to locate and interact with different types of HTML elements commonly found in user registration scenarios.
-
 **Steps to Follow:**
 
 1. Open the application using the URL.
