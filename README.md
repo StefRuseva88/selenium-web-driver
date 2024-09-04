@@ -7,81 +7,58 @@
 ### This is a test project for Front-End Test Automation July 2024 Course @ SoftUni
 
 ## About
-Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements
+Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements.
 
 ## Table of Contents
 
-1. [Working with HTML Elements](#working-with-html-elements)
-   - [Handling Form Input](#handling-form-input)
+1. [Interacting with HTML Elements](#interacting-with-html-elements)
+   - [Form Input Automation](#form-input-automation)
    - [Working with Web Tables](#working-with-web-tables)
-   - [Drop-down Practice](#drop-down-practice)
-2. [Data-Driven Tests](#data-driven-tests)
+   - [Drop-down Automation](#drop-down-automation)
+2. [Data-Driven Testing](#data-driven-testing)
 
-## Working with HTML Elements
+## Interacting with HTML Elements
 
-### 1.1 Handling Form Input
+### 1.1 Form Input Automation
+Automate form filling using Selenium by locating and interacting with various HTML elements. The process includes:
 
-Use Selenium to automate the process of filling out a form, locate and interact with different types of HTML elements. The steps involve:
 - Launching a web application.
-- Navigating to a form.
-- Filling out various input fields such as text boxes, radio buttons, and date pickers.
+- Navigating to the form.
+- Populating input fields such as text boxes, radio buttons, and date pickers.
 - Submitting the form.
-
-**Steps to Follow:**
-
-1. Open the application using the provided URL.
-2. Click on the **My Account** link.
-3. In the **New Customer** section, click on the **Continue** button.
-4. Fill in all mandatory information on the **Account Creation** page:
-   - Select Gender
-   - Enter First Name, Last Name, Date of Birth
-   - Generate a unique email address for registration
-   - Enter other required details like Company Name, Address, City, etc.
-5. Use the `SelectElement` class from the `OpenQA.Selenium.Support.UI` namespace to interact with dropdown elements.
-6. Submit the form and assert that the account has been created.
-7. Log off and print a success message to the console.
 
 ### 1.2 Working with Web Tables
 
-A web table is an HTML element represented by the `<table>` tag and is used to display data in a structured format.
+Web tables are represented by the `<table>` tag and are used to display data in a structured way.
 
-**Scenario:**
+**Steps:**
 
 - Open the application using the provided URL.
-- Identify the web table on the home page and use XPath to locate it.
-- Traverse the table to extract product information.
-- Save the extracted data to a CSV file.
-- Use assertions to verify that the CSV file is created and not empty.
+- Locate the web table on the home page using XPath.
+- Track the table to extract product data.
+- Save the extracted information to a CSV file.
+- Verify that the CSV file is created and is not empty by using assertions.
 
-### 1.3 Drop-down Practice
+### 1.3 Drop-down Automation
 
-Automating interactions with dropdown elements using Selenium.
+Automate the interaction with dropdown menus using Selenium.
 
-**Steps to Follow:**
+**Steps:**
 
-1. Open the application using the provided URL.
-2. Identify the dropdown element using its `name` property.
-3. Use the `SelectElement` class to retrieve and interact with the dropdown options.
+1. Open the application with the given URL.
+2. Identify the dropdown element by its `name` attribute.
+3. Utilize the `SelectElement` class to access and interact with dropdown options.
 4. Save the dropdown information to a text file.
-5. Check the file in the `bin -> Debug -> net{version}` directory.
+5. Locate the file in the `bin -> Debug -> net{version}` folder.
 
-## Data-Driven Tests
+## Data-Driven Testing
 
-Implement data-driven testing to reuse test logic for multiple sets of data, enhancing test clarity and efficiency.
+Implement data-driven testing to reuse the same test logic across different data inputs, thereby increasing test efficiency.
 
-**Steps to Follow:**
+**Essential Concepts:**
 
-1. Set up your project and install the necessary Selenium packages via NuGet.
-2. Initialize the `ChromeDriver` and navigate to the "Number Calculator" web application.
-3. Locate the necessary web elements on the page.
-4. Define a method that accepts input values for the first number, operator, second number, and expected result.
-5. Use the `[TestCase]` attribute to write various test cases with different inputs.
-6. Implement a `TearDown` method to close the browser session after each test.
-
-**Key Takeaways:**
-
-- Data-driven testing separates test data from test logic, ensuring consistent application of logic across different scenarios.
-- Each test case runs independently with its own data set, enhancing the reliability of your tests.
+- Data-driven testing decouples test data from the test logic, allowing the same logic to be applied consistently across various scenarios.
+- Each test executes independently with its unique data set, which boosts the reliability of the tests.
 
 ## Contributing
 
