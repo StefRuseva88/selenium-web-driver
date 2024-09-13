@@ -24,8 +24,6 @@ Setup Selenium + NUnit. Writing Selenium Tests. Interaction with Page Elements.
 ### 1.1 Form Input Automation
 Automate form filling using Selenium by locating and interacting with various HTML elements. The process includes:
 
-- Launching a web application.
-- Navigating to the form.
 - Populating input fields such as text boxes, radio buttons, and date pickers.
 - Submitting the form.
 
@@ -35,10 +33,10 @@ Web tables are represented by the `<table>` tag and are used to display data in 
 
 **Objective:**
 
-- Locate the web table on the home page using XPath.
-- Track the table to extract product data.
-- Save the extracted information to a CSV file.
-- Verify that the CSV file is created and is not empty by using assertions.
+- Locating the web table on the home page using XPath.
+- Tracking the table to extract product data.
+- Saving the extracted information to a CSV file.
+- Confirming that the CSV file is created and is not empty by using assertions.
 
 ### 1.3 Drop-down Automation
 
@@ -46,10 +44,10 @@ Automate the interaction with dropdown menus using Selenium.
 
 **Objective:**
 
-- Identify the dropdown element by its `name` attribute.
-- Utilize the `SelectElement` class to access and interact with dropdown options.
-- Save the dropdown information to a text file.
-- Locate the file in the `bin -> Debug -> net{version}` folder.
+- Identifying the dropdown element by its `name` attribute.
+- Utilizing the `SelectElement` class to access and interact with dropdown options.
+- Saving the dropdown information to a text file.
+- Locating the file in the `bin -> Debug -> net{version}` folder.
 
 ## Data-Driven Testing
 
