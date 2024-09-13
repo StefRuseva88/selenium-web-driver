@@ -33,9 +33,8 @@ Automate form filling using Selenium by locating and interacting with various HT
 
 Web tables are represented by the `<table>` tag and are used to display data in a structured way.
 
-**Steps:**
+**Objective:**
 
-- Open the application using the provided URL.
 - Locate the web table on the home page using XPath.
 - Track the table to extract product data.
 - Save the extracted information to a CSV file.
@@ -45,13 +44,12 @@ Web tables are represented by the `<table>` tag and are used to display data in 
 
 Automate the interaction with dropdown menus using Selenium.
 
-**Steps:**
+**Objective:**
 
-1. Open the application with the given URL.
-2. Identify the dropdown element by its `name` attribute.
-3. Utilize the `SelectElement` class to access and interact with dropdown options.
-4. Save the dropdown information to a text file.
-5. Locate the file in the `bin -> Debug -> net{version}` folder.
+- Identify the dropdown element by its `name` attribute.
+- Utilize the `SelectElement` class to access and interact with dropdown options.
+- Save the dropdown information to a text file.
+- Locate the file in the `bin -> Debug -> net{version}` folder.
 
 ## Data-Driven Testing
 
